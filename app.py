@@ -3,22 +3,21 @@
 # %% auto 0
 __all__ = ['learn', 'categories', 'image', 'label', 'examples', 'ui', 'classify_image']
 
-# %% app.ipynb 1
-! pip install -Uqq fastai gradio
+# %% app.ipynb 2
 from fastai.vision.all import *
 import gradio as gr
 
-# %% app.ipynb 3
+# %% app.ipynb 4
 learn = load_learner("export.pkl")
 
-# %% app.ipynb 4
+# %% app.ipynb 5
 categories = ("da vinci", "titian", "michelangelo", "raphael")
 
 def classify_image(img):
     prediction, index, probability = learn.predict(img)
     return dict(zip(categories, map(float, probability)))
 
-# %% app.ipynb 6
+# %% app.ipynb 7
 image = gr.Image(height=192, width=192)
 label = gr.Label()
 examples = ["da-vinci.jpg", "titian.jpg", "michelangelo.jpg", "raphael.jpg"]
