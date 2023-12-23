@@ -21,4 +21,7 @@ Files:
 - `app.py` is the deployed version used by Hugging Faces
 - `requirements.txt` is automatically detected and installed in a container by Hugging Faces
 
-Trained on an A5000 24GB using resnet50.
+<img width="638" alt="Pasted Graphic 7" src="https://github.com/knjk04/which-renaissance-artist/assets/11173328/267b00bd-3ea3-4b23-a2d7-cf03ee374720">
+
+
+Trained on an A5000 24GB using resnet50. 91% accurate.
