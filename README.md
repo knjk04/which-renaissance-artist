@@ -20,3 +20,5 @@ Files:
 - `app.ipynb` is the deployed version of the notebook that loads the model pickle file
 - `app.py` is the deployed version used by Hugging Faces
 - `requirements.txt` is automatically detected and installed in a container by Hugging Faces
+
+Trained on an A5000 24GB using resnet50.

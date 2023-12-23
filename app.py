@@ -18,7 +18,7 @@ def classify_image(img):
     return dict(zip(categories, map(float, probability)))
 
 # %% app.ipynb 7
-image = gr.Image(height=192, width=192)
+image = gr.Image(height=270, width=270)
 label = gr.Label()
 examples = ["da-vinci.jpg", "titian.jpg", "michelangelo.jpg", "raphael.jpg"]
 
