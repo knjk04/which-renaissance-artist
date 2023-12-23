@@ -10,6 +10,8 @@ pinned: false
 license: mit
 ---
 
+[App](readme-image.png)
+
 See it [running live](https://huggingface.co/spaces/scronfinkle/which-renaissance-artist) on Hugging Face
 
 Files:
