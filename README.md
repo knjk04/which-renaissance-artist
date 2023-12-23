@@ -10,4 +10,10 @@ pinned: false
 license: mit
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+See it [running live](https://huggingface.co/spaces/scronfinkle/which-renaissance-artist) on Hugging Face
+
+Files:
+- `artist_detector.ipynb` is the notebook used to train the model
+- `app.ipynb` is the deployed version of the notebook that loads the model pickle file
+- `app.py` is the deployed version used by Hugging Faces
+- `requirements.txt` is automatically detected and installed in a container by Hugging Faces
