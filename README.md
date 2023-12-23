@@ -10,7 +10,8 @@ pinned: false
 license: mit
 ---
 
-[App](readme-image.png)
+<img width="1230" alt="readme-image" src="https://github.com/knjk04/which-renaissance-artist/assets/11173328/c65d7f98-6cdf-4a77-b209-79a890926d08">
+
 
 See it [running live](https://huggingface.co/spaces/scronfinkle/which-renaissance-artist) on Hugging Face
 
